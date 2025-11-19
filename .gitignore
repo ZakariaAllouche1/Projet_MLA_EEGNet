@@ -307,7 +307,7 @@ pyrightconfig.json
 
 
 # --- Projet EEGNet (données & artefacts) ---
-data/
+/data/
 **/*.gdf
 **/*.edf
 **/*.mat
