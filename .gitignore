@@ -307,7 +307,6 @@ pyrightconfig.json
 
 
 # --- Projet EEGNet (données & artefacts) ---
-/data/
 **/*.gdf
 **/*.edf
 **/*.mat
@@ -319,5 +318,9 @@ checkpoints/
 models/
 .kaggle/
 **/kaggle.json
+
+# --- Autoriser les données prétraitées ---
+!data/preprocessed/
+!data/preprocessed/**
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,pycharm,python
