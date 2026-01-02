@@ -10,18 +10,12 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import CategoricalCrossentropy
 
-# -------------------------------------------------
-# Paths / imports
-# -------------------------------------------------
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, THIS_DIR)  # EEGModels.py est dans le même dossier
+sys.path.insert(0, THIS_DIR)
 
 from EEGModels import EEGNet
 
-
-# -------------------------------------------------
 # Utils
-# -------------------------------------------------
 def set_seeds(seed: int):
     random.seed(seed)
     np.random.seed(seed)
@@ -29,11 +23,6 @@ def set_seeds(seed: int):
 
 
 def class_weight_paper(y):
-    """
-    EEGNet paper:
-    class weight = inverse of class proportion,
-    majority class fixed to 1 (rounded up).
-    """
     y = y.astype(int)
     counts = np.bincount(y)
     maj = counts.max()
@@ -49,44 +38,26 @@ def class_weight_paper(y):
 
 
 def build_eegnet_ern(chans, samples, dropout):
-    model = EEGNet(
-        nb_classes=2,
-        Chans=chans,
-        Samples=samples,
-        dropoutRate=dropout,
-        kernLength=64,   # ERN setting (paper)
-        F1=8,
-        D=2,
-        F2=16,
-        dropoutType="Dropout"
-    )
-    model.compile(
-        optimizer=Adam(),
-        loss=CategoricalCrossentropy(),
-        metrics=["accuracy"]  # AUC calculée à la main
-    )
+    model = EEGNet(nb_classes = 2, Chans = chans, Samples = samples, dropoutRate = dropout, kernLength = 64, F1 = 8, D = 2, F2 = 16, dropoutType = "Dropout")
+    model.compile(optimizer = Adam(), loss = CategoricalCrossentropy(), metrics=["accuracy"])
     return model
 
-
-# -------------------------------------------------
-# Main
-# -------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--train_npz", required=True)
-    ap.add_argument("--out", default="results_ern_within")
-    ap.add_argument("--seed", type=int, default=42)
-    ap.add_argument("--epochs", type=int, default=500)
-    ap.add_argument("--batch_size", type=int, default=16)
+    ap.add_argument("--train_npz", required = True)
+    ap.add_argument("--out", default = "results_ern_within")
+    ap.add_argument("--seed", type = int, default = 42)
+    ap.add_argument("--epochs", type = int, default = 500)
+    ap.add_argument("--batch_size", type = int, default = 16)
     args = ap.parse_args()
 
-    os.makedirs(args.out, exist_ok=True)
+    os.makedirs(args.out, exist_ok = True)
     set_seeds(args.seed)
 
-    d = np.load(args.train_npz, allow_pickle=True)
+    d = np.load(args.train_npz, allow_pickle = True)
 
-    X = d["X"].astype(np.float32)          # (N, 56, 160)
-    y = d["y"].astype(np.int64)            # (N,)
+    X = d["X"].astype(np.float32) # (N, 56, 160)
+    y = d["y"].astype(np.int64) # (N,)
     subject = d["subject"].astype(np.int64)
     session = d["session"].astype(np.int64)
     id_feedback = d["id_feedback"]
@@ -105,7 +76,7 @@ def main():
     for s in subjects:
         idx_s = np.where(subject == s)[0]
 
-        # ---- blockwise 4-fold CV (papier EEGNet)
+        # blockwise 4-fold CV
         order = np.lexsort((id_feedback[idx_s], session[idx_s]))
         idx_s = idx_s[order]
 
@@ -136,44 +107,18 @@ def main():
 
             cw = class_weight_paper(y[idx_train])
 
-            ckpt_path = os.path.join(
-                args.out, f"ern_within_s{s:02d}_fold{test_b}.weights.h5"
-            )
-            ckpt = ModelCheckpoint(
-                ckpt_path,
-                monitor="val_loss",
-                save_best_only=True,
-                save_weights_only=True,
-                mode="min",
-                verbose=0
-            )
-
-            model.fit(
-                X_train, y_train,
-                validation_data=(X_val, y_val),
-                epochs=args.epochs,
-                batch_size=args.batch_size,
-                verbose=0,
-                callbacks=[ckpt],
-                class_weight=cw
-            )
-
+            ckpt_path = os.path.join(args.out, f"ern_within_s{s:02d}_fold{test_b}.weights.h5")
+            ckpt = ModelCheckpoint(ckpt_path, monitor = "val_loss", save_best_only = True, save_weights_only = True, mode = "min", verbose = 0)
+            model.fit(X_train, y_train, validation_data = (X_val, y_val), epochs = args.epochs, batch_size = args.batch_size, verbose = 0, callbacks = [ckpt], class_weight = cw)
             model.load_weights(ckpt_path)
-
             proba = model.predict(X_test, verbose=0)[:, 1]
             auc = float(roc_auc_score(y_test, proba))
             fold_aucs.append(auc)
-
-            rows.append({
-                "subject": int(s),
-                "fold": int(test_b + 1),
-                "auc": auc
-            })
+            rows.append({"subject": int(s), "fold": int(test_b + 1), "auc": auc})
 
         print(
             f"Subject {int(s):02d} | mean_AUC={np.mean(fold_aucs):.4f} "
-            f"| folds={np.round(fold_aucs,4)}"
-        )
+            f"| folds={np.round(fold_aucs,4)}")
 
     df = pd.DataFrame(rows)
     out_csv = os.path.join(args.out, "ern_within_subject_4fold_auc.csv")
