@@ -10,6 +10,18 @@
 
 ---
 
+# Reproducibility
+
+For reproducibility, we recommend using **Python 3.11**.
+
+Install dependencies with:
+
+~~~bash
+python -m pip install -r requirements.txt
+~~~
+
+---
+
 # Data Preprocessing (`data/`)
 
 The `data/` directory contains preprocessing scripts for each paradigm:
