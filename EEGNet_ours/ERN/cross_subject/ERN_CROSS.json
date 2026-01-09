@@ -1,0 +1,2131 @@
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 0,
+  "protocol_tag": "cross_fold0_test2",
+  "seed": 42,
+  "train_subjects": [
+    21,
+    17,
+    18,
+    7,
+    26,
+    12,
+    16,
+    20,
+    22,
+    11,
+    14
+  ],
+  "val_subjects": [
+    6,
+    13,
+    24,
+    23
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5432656490525534,
+    "best_epoch": 14
+  },
+  "metrics": {
+    "accuracy": 0.65,
+    "balanced_accuracy": 0.5496212121212121,
+    "kappa": 0.11466083150984674,
+    "precision": 0.6735395189003437,
+    "recall": 0.8909090909090909,
+    "f1": 0.767123287671233,
+    "per_class": {
+      "0": {
+        "precision": 0.5102040816326531,
+        "recall": 0.20833333333333334,
+        "f1": 0.2958579881656805,
+        "support": 120
+      },
+      "1": {
+        "precision": 0.6735395189003437,
+        "recall": 0.8909090909090909,
+        "f1": 0.767123287671233,
+        "support": 220
+      }
+    },
+    "confusion_matrix": [
+      [
+        25,
+        95
+      ],
+      [
+        24,
+        196
+      ]
+    ],
+    "auc": 0.6454924242424243
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 1,
+  "protocol_tag": "cross_fold1_test14",
+  "seed": 42,
+  "train_subjects": [
+    22,
+    20,
+    11,
+    2,
+    26,
+    24,
+    13,
+    21,
+    16,
+    6,
+    12
+  ],
+  "val_subjects": [
+    7,
+    17,
+    23,
+    18
+  ],
+  "test_subjects": [
+    14
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.45324714897676954,
+    "best_epoch": 41
+  },
+  "metrics": {
+    "accuracy": 0.6705882352941176,
+    "balanced_accuracy": 0.6173023255813953,
+    "kappa": 0.24876701519037292,
+    "precision": 0.7068273092369478,
+    "recall": 0.8186046511627907,
+    "f1": 0.7586206896551724,
+    "per_class": {
+      "0": {
+        "precision": 0.5714285714285714,
+        "recall": 0.416,
+        "f1": 0.48148148148148145,
+        "support": 125
+      },
+      "1": {
+        "precision": 0.7068273092369478,
+        "recall": 0.8186046511627907,
+        "f1": 0.7586206896551724,
+        "support": 215
+      }
+    },
+    "confusion_matrix": [
+      [
+        52,
+        73
+      ],
+      [
+        39,
+        176
+      ]
+    ],
+    "auc": 0.6442790697674419
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 2,
+  "protocol_tag": "cross_fold2_test6",
+  "seed": 42,
+  "train_subjects": [
+    24,
+    2,
+    16,
+    11,
+    14,
+    7,
+    22,
+    21,
+    18,
+    26,
+    20
+  ],
+  "val_subjects": [
+    23,
+    17,
+    13,
+    12
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.62313934883406,
+    "best_epoch": 13
+  },
+  "metrics": {
+    "accuracy": 0.8117647058823529,
+    "balanced_accuracy": 0.5907172995780591,
+    "kappa": 0.1122715404699739,
+    "precision": 0.9436619718309859,
+    "recall": 0.8481012658227848,
+    "f1": 0.8933333333333333,
+    "per_class": {
+      "0": {
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "f1": 0.2,
+        "support": 24
+      },
+      "1": {
+        "precision": 0.9436619718309859,
+        "recall": 0.8481012658227848,
+        "f1": 0.8933333333333333,
+        "support": 316
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        16
+      ],
+      [
+        48,
+        268
+      ]
+    ],
+    "auc": 0.6507120253164557
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 3,
+  "protocol_tag": "cross_fold3_test2",
+  "seed": 42,
+  "train_subjects": [
+    16,
+    12,
+    20,
+    21,
+    18,
+    23,
+    26,
+    11,
+    6,
+    14,
+    17
+  ],
+  "val_subjects": [
+    13,
+    7,
+    24,
+    22
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.44284392616083457,
+    "best_epoch": 21
+  },
+  "metrics": {
+    "accuracy": 0.6823529411764706,
+    "balanced_accuracy": 0.5556818181818182,
+    "kappa": 0.13802816901408443,
+    "precision": 0.6739130434782609,
+    "recall": 0.9863636363636363,
+    "f1": 0.8007380073800738,
+    "per_class": {
+      "0": {
+        "precision": 0.8333333333333334,
+        "recall": 0.125,
+        "f1": 0.21739130434782608,
+        "support": 120
+      },
+      "1": {
+        "precision": 0.6739130434782609,
+        "recall": 0.9863636363636363,
+        "f1": 0.8007380073800738,
+        "support": 220
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        105
+      ],
+      [
+        3,
+        217
+      ]
+    ],
+    "auc": 0.6845833333333332
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 4,
+  "protocol_tag": "cross_fold4_test24",
+  "seed": 42,
+  "train_subjects": [
+    17,
+    18,
+    23,
+    6,
+    11,
+    2,
+    7,
+    16,
+    22,
+    21,
+    14
+  ],
+  "val_subjects": [
+    20,
+    12,
+    26,
+    13
+  ],
+  "test_subjects": [
+    24
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.7014320125413496,
+    "best_epoch": 3
+  },
+  "metrics": {
+    "accuracy": 0.6882352941176471,
+    "balanced_accuracy": 0.5152657525166743,
+    "kappa": 0.03929199765420921,
+    "precision": 0.7097791798107256,
+    "recall": 0.9414225941422594,
+    "f1": 0.8093525179856116,
+    "per_class": {
+      "0": {
+        "precision": 0.391304347826087,
+        "recall": 0.0891089108910891,
+        "f1": 0.14516129032258063,
+        "support": 101
+      },
+      "1": {
+        "precision": 0.7097791798107256,
+        "recall": 0.9414225941422594,
+        "f1": 0.8093525179856116,
+        "support": 239
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        92
+      ],
+      [
+        14,
+        225
+      ]
+    ],
+    "auc": 0.5852769377356145
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 5,
+  "protocol_tag": "cross_fold5_test7",
+  "seed": 42,
+  "train_subjects": [
+    20,
+    14,
+    13,
+    16,
+    11,
+    23,
+    26,
+    21,
+    18,
+    6,
+    24
+  ],
+  "val_subjects": [
+    17,
+    12,
+    22,
+    2
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5680672020413154,
+    "best_epoch": 18
+  },
+  "metrics": {
+    "accuracy": 0.8852941176470588,
+    "balanced_accuracy": 0.6525022209061297,
+    "kappa": 0.3179012345679013,
+    "precision": 0.932258064516129,
+    "recall": 0.9413680781758957,
+    "f1": 0.9367909238249595,
+    "per_class": {
+      "0": {
+        "precision": 0.4,
+        "recall": 0.36363636363636365,
+        "f1": 0.380952380952381,
+        "support": 33
+      },
+      "1": {
+        "precision": 0.932258064516129,
+        "recall": 0.9413680781758957,
+        "f1": 0.9367909238249595,
+        "support": 307
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        21
+      ],
+      [
+        18,
+        289
+      ]
+    ],
+    "auc": 0.8115684532622642
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 6,
+  "protocol_tag": "cross_fold6_test24",
+  "seed": 42,
+  "train_subjects": [
+    26,
+    14,
+    21,
+    2,
+    20,
+    17,
+    18,
+    16,
+    12,
+    6,
+    22
+  ],
+  "val_subjects": [
+    23,
+    7,
+    11,
+    13
+  ],
+  "test_subjects": [
+    24
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5440304296654325,
+    "best_epoch": 8
+  },
+  "metrics": {
+    "accuracy": 0.711764705882353,
+    "balanced_accuracy": 0.5377190438709143,
+    "kappa": 0.09853362913262276,
+    "precision": 0.719626168224299,
+    "recall": 0.9665271966527197,
+    "f1": 0.825,
+    "per_class": {
+      "0": {
+        "precision": 0.5789473684210527,
+        "recall": 0.10891089108910891,
+        "f1": 0.18333333333333335,
+        "support": 101
+      },
+      "1": {
+        "precision": 0.719626168224299,
+        "recall": 0.9665271966527197,
+        "f1": 0.825,
+        "support": 239
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        90
+      ],
+      [
+        8,
+        231
+      ]
+    ],
+    "auc": 0.7035088446083102
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 7,
+  "protocol_tag": "cross_fold7_test21",
+  "seed": 42,
+  "train_subjects": [
+    11,
+    20,
+    6,
+    14,
+    12,
+    24,
+    22,
+    26,
+    16,
+    2,
+    7
+  ],
+  "val_subjects": [
+    18,
+    23,
+    13,
+    17
+  ],
+  "test_subjects": [
+    21
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5494203539781792,
+    "best_epoch": 13
+  },
+  "metrics": {
+    "accuracy": 0.9058823529411765,
+    "balanced_accuracy": 0.6723901098901098,
+    "kappa": 0.3563653573118789,
+    "precision": 0.945859872611465,
+    "recall": 0.9519230769230769,
+    "f1": 0.9488817891373802,
+    "per_class": {
+      "0": {
+        "precision": 0.4230769230769231,
+        "recall": 0.39285714285714285,
+        "f1": 0.4074074074074074,
+        "support": 28
+      },
+      "1": {
+        "precision": 0.945859872611465,
+        "recall": 0.9519230769230769,
+        "f1": 0.9488817891373802,
+        "support": 312
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        17
+      ],
+      [
+        15,
+        297
+      ]
+    ],
+    "auc": 0.7968177655677656
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 8,
+  "protocol_tag": "cross_fold8_test11",
+  "seed": 42,
+  "train_subjects": [
+    2,
+    18,
+    20,
+    13,
+    22,
+    7,
+    12,
+    16,
+    24,
+    14,
+    26
+  ],
+  "val_subjects": [
+    6,
+    21,
+    17,
+    23
+  ],
+  "test_subjects": [
+    11
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.41604764274386474,
+    "best_epoch": 59
+  },
+  "metrics": {
+    "accuracy": 0.7088235294117647,
+    "balanced_accuracy": 0.6397101449275362,
+    "kappa": 0.300498753117207,
+    "precision": 0.7441860465116279,
+    "recall": 0.8533333333333334,
+    "f1": 0.7950310559006211,
+    "per_class": {
+      "0": {
+        "precision": 0.5975609756097561,
+        "recall": 0.4260869565217391,
+        "f1": 0.4974619289340102,
+        "support": 115
+      },
+      "1": {
+        "precision": 0.7441860465116279,
+        "recall": 0.8533333333333334,
+        "f1": 0.7950310559006211,
+        "support": 225
+      }
+    },
+    "confusion_matrix": [
+      [
+        49,
+        66
+      ],
+      [
+        33,
+        192
+      ]
+    ],
+    "auc": 0.7009855072463768
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 9,
+  "protocol_tag": "cross_fold9_test22",
+  "seed": 42,
+  "train_subjects": [
+    24,
+    16,
+    20,
+    26,
+    17,
+    21,
+    14,
+    18,
+    12,
+    2,
+    7
+  ],
+  "val_subjects": [
+    23,
+    6,
+    13,
+    11
+  ],
+  "test_subjects": [
+    22
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5401973121388014,
+    "best_epoch": 17
+  },
+  "metrics": {
+    "accuracy": 0.888235294117647,
+    "balanced_accuracy": 0.7362442314518992,
+    "kappa": 0.38199559934946903,
+    "precision": 0.959866220735786,
+    "recall": 0.9169329073482428,
+    "f1": 0.9379084967320261,
+    "per_class": {
+      "0": {
+        "precision": 0.36585365853658536,
+        "recall": 0.5555555555555556,
+        "f1": 0.4411764705882353,
+        "support": 27
+      },
+      "1": {
+        "precision": 0.959866220735786,
+        "recall": 0.9169329073482428,
+        "f1": 0.9379084967320261,
+        "support": 313
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        12
+      ],
+      [
+        26,
+        287
+      ]
+    ],
+    "auc": 0.8714944976925808
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 10,
+  "protocol_tag": "cross_fold10_test16",
+  "seed": 42,
+  "train_subjects": [
+    23,
+    6,
+    21,
+    13,
+    7,
+    24,
+    11,
+    20,
+    22,
+    26,
+    14
+  ],
+  "val_subjects": [
+    18,
+    2,
+    17,
+    12
+  ],
+  "test_subjects": [
+    16
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.6319256203119145,
+    "best_epoch": 1
+  },
+  "metrics": {
+    "accuracy": 0.6176470588235294,
+    "balanced_accuracy": 0.4976303317535545,
+    "kappa": -0.005871375904601406,
+    "precision": 0.6194690265486725,
+    "recall": 0.995260663507109,
+    "f1": 0.7636363636363636,
+    "per_class": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 129
+      },
+      "1": {
+        "precision": 0.6194690265486725,
+        "recall": 0.995260663507109,
+        "f1": 0.7636363636363636,
+        "support": 211
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        129
+      ],
+      [
+        1,
+        210
+      ]
+    ],
+    "auc": 0.6524119181454131
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 11,
+  "protocol_tag": "cross_fold11_test6",
+  "seed": 42,
+  "train_subjects": [
+    26,
+    2,
+    20,
+    14,
+    18,
+    11,
+    22,
+    23,
+    24,
+    21,
+    13
+  ],
+  "val_subjects": [
+    7,
+    16,
+    12,
+    17
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5643027854520221,
+    "best_epoch": 20
+  },
+  "metrics": {
+    "accuracy": 0.8382352941176471,
+    "balanced_accuracy": 0.604957805907173,
+    "kappa": 0.14549442515079503,
+    "precision": 0.9453924914675768,
+    "recall": 0.8765822784810127,
+    "f1": 0.9096880131362891,
+    "per_class": {
+      "0": {
+        "precision": 0.1702127659574468,
+        "recall": 0.3333333333333333,
+        "f1": 0.22535211267605634,
+        "support": 24
+      },
+      "1": {
+        "precision": 0.9453924914675768,
+        "recall": 0.8765822784810127,
+        "f1": 0.9096880131362891,
+        "support": 316
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        16
+      ],
+      [
+        39,
+        277
+      ]
+    ],
+    "auc": 0.6806434599156118
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 12,
+  "protocol_tag": "cross_fold12_test26",
+  "seed": 42,
+  "train_subjects": [
+    2,
+    20,
+    16,
+    13,
+    14,
+    7,
+    24,
+    22,
+    11,
+    17,
+    23
+  ],
+  "val_subjects": [
+    6,
+    18,
+    21,
+    12
+  ],
+  "test_subjects": [
+    26
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.47527292058911436,
+    "best_epoch": 106
+  },
+  "metrics": {
+    "accuracy": 0.5705882352941176,
+    "balanced_accuracy": 0.5523471976093679,
+    "kappa": 0.10825279344662808,
+    "precision": 0.5655430711610487,
+    "recall": 0.8342541436464088,
+    "f1": 0.6741071428571429,
+    "per_class": {
+      "0": {
+        "precision": 0.589041095890411,
+        "recall": 0.27044025157232704,
+        "f1": 0.3706896551724138,
+        "support": 159
+      },
+      "1": {
+        "precision": 0.5655430711610487,
+        "recall": 0.8342541436464088,
+        "f1": 0.6741071428571429,
+        "support": 181
+      }
+    },
+    "confusion_matrix": [
+      [
+        43,
+        116
+      ],
+      [
+        30,
+        151
+      ]
+    ],
+    "auc": 0.6078390493067862
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 13,
+  "protocol_tag": "cross_fold13_test7",
+  "seed": 42,
+  "train_subjects": [
+    6,
+    23,
+    22,
+    2,
+    11,
+    17,
+    24,
+    13,
+    20,
+    16,
+    21
+  ],
+  "val_subjects": [
+    14,
+    26,
+    12,
+    18
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.6761544804240383,
+    "best_epoch": 17
+  },
+  "metrics": {
+    "accuracy": 0.8941176470588236,
+    "balanced_accuracy": 0.589773961109466,
+    "kappa": 0.22912205567451827,
+    "precision": 0.9195046439628483,
+    "recall": 0.9674267100977199,
+    "f1": 0.9428571428571428,
+    "per_class": {
+      "0": {
+        "precision": 0.4117647058823529,
+        "recall": 0.21212121212121213,
+        "f1": 0.27999999999999997,
+        "support": 33
+      },
+      "1": {
+        "precision": 0.9195046439628483,
+        "recall": 0.9674267100977199,
+        "f1": 0.9428571428571428,
+        "support": 307
+      }
+    },
+    "confusion_matrix": [
+      [
+        7,
+        26
+      ],
+      [
+        10,
+        297
+      ]
+    ],
+    "auc": 0.7270753133945317
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 14,
+  "protocol_tag": "cross_fold14_test14",
+  "seed": 42,
+  "train_subjects": [
+    11,
+    20,
+    26,
+    18,
+    21,
+    16,
+    23,
+    12,
+    2,
+    7,
+    6
+  ],
+  "val_subjects": [
+    24,
+    17,
+    13,
+    22
+  ],
+  "test_subjects": [
+    14
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.48908429818097937,
+    "best_epoch": 34
+  },
+  "metrics": {
+    "accuracy": 0.6352941176470588,
+    "balanced_accuracy": 0.616186046511628,
+    "kappa": 0.22854528819762132,
+    "precision": 0.7219512195121951,
+    "recall": 0.6883720930232559,
+    "f1": 0.7047619047619048,
+    "per_class": {
+      "0": {
+        "precision": 0.5037037037037037,
+        "recall": 0.544,
+        "f1": 0.5230769230769231,
+        "support": 125
+      },
+      "1": {
+        "precision": 0.7219512195121951,
+        "recall": 0.6883720930232559,
+        "f1": 0.7047619047619048,
+        "support": 215
+      }
+    },
+    "confusion_matrix": [
+      [
+        68,
+        57
+      ],
+      [
+        67,
+        148
+      ]
+    ],
+    "auc": 0.6622139534883721
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 15,
+  "protocol_tag": "cross_fold15_test16",
+  "seed": 42,
+  "train_subjects": [
+    26,
+    17,
+    11,
+    14,
+    13,
+    18,
+    21,
+    12,
+    6,
+    23,
+    7
+  ],
+  "val_subjects": [
+    24,
+    22,
+    2,
+    20
+  ],
+  "test_subjects": [
+    16
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5036433716846067,
+    "best_epoch": 19
+  },
+  "metrics": {
+    "accuracy": 0.6794117647058824,
+    "balanced_accuracy": 0.5865571843197767,
+    "kappa": 0.20273642543670944,
+    "precision": 0.6655844155844156,
+    "recall": 0.9715639810426541,
+    "f1": 0.7899807321772641,
+    "per_class": {
+      "0": {
+        "precision": 0.8125,
+        "recall": 0.20155038759689922,
+        "f1": 0.32298136645962733,
+        "support": 129
+      },
+      "1": {
+        "precision": 0.6655844155844156,
+        "recall": 0.9715639810426541,
+        "f1": 0.7899807321772641,
+        "support": 211
+      }
+    },
+    "confusion_matrix": [
+      [
+        26,
+        103
+      ],
+      [
+        6,
+        205
+      ]
+    ],
+    "auc": 0.6927513868988575
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 16,
+  "protocol_tag": "cross_fold16_test18",
+  "seed": 42,
+  "train_subjects": [
+    20,
+    7,
+    23,
+    17,
+    2,
+    21,
+    13,
+    6,
+    11,
+    12,
+    16
+  ],
+  "val_subjects": [
+    22,
+    26,
+    14,
+    24
+  ],
+  "test_subjects": [
+    18
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5493237012347509,
+    "best_epoch": 39
+  },
+  "metrics": {
+    "accuracy": 0.7676470588235295,
+    "balanced_accuracy": 0.5794412920122217,
+    "kappa": 0.1960972105830241,
+    "precision": 0.7993421052631579,
+    "recall": 0.9310344827586207,
+    "f1": 0.8601769911504424,
+    "per_class": {
+      "0": {
+        "precision": 0.5,
+        "recall": 0.22784810126582278,
+        "f1": 0.31304347826086953,
+        "support": 79
+      },
+      "1": {
+        "precision": 0.7993421052631579,
+        "recall": 0.9310344827586207,
+        "f1": 0.8601769911504424,
+        "support": 261
+      }
+    },
+    "confusion_matrix": [
+      [
+        18,
+        61
+      ],
+      [
+        18,
+        243
+      ]
+    ],
+    "auc": 0.6624472573839664
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 17,
+  "protocol_tag": "cross_fold17_test13",
+  "seed": 42,
+  "train_subjects": [
+    6,
+    20,
+    2,
+    17,
+    21,
+    14,
+    11,
+    23,
+    26,
+    18,
+    7
+  ],
+  "val_subjects": [
+    24,
+    12,
+    22,
+    16
+  ],
+  "test_subjects": [
+    13
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.611150940836862,
+    "best_epoch": 1
+  },
+  "metrics": {
+    "accuracy": 0.5470588235294118,
+    "balanced_accuracy": 0.5249687890137328,
+    "kappa": 0.05213613323678512,
+    "precision": 0.5363636363636364,
+    "recall": 0.9943820224719101,
+    "f1": 0.6968503937007874,
+    "per_class": {
+      "0": {
+        "precision": 0.9,
+        "recall": 0.05555555555555555,
+        "f1": 0.10465116279069767,
+        "support": 162
+      },
+      "1": {
+        "precision": 0.5363636363636364,
+        "recall": 0.9943820224719101,
+        "f1": 0.6968503937007874,
+        "support": 178
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        153
+      ],
+      [
+        1,
+        177
+      ]
+    ],
+    "auc": 0.751491191566098
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 18,
+  "protocol_tag": "cross_fold18_test20",
+  "seed": 42,
+  "train_subjects": [
+    2,
+    16,
+    11,
+    17,
+    22,
+    24,
+    7,
+    18,
+    23,
+    14,
+    6
+  ],
+  "val_subjects": [
+    21,
+    12,
+    13,
+    26
+  ],
+  "test_subjects": [
+    20
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.6224777362374372,
+    "best_epoch": 2
+  },
+  "metrics": {
+    "accuracy": 0.7411764705882353,
+    "balanced_accuracy": 0.5876792698826597,
+    "kappa": 0.22342192691029894,
+    "precision": 0.7341772151898734,
+    "recall": 0.9830508474576272,
+    "f1": 0.8405797101449277,
+    "per_class": {
+      "0": {
+        "precision": 0.8333333333333334,
+        "recall": 0.19230769230769232,
+        "f1": 0.3125,
+        "support": 104
+      },
+      "1": {
+        "precision": 0.7341772151898734,
+        "recall": 0.9830508474576272,
+        "f1": 0.8405797101449277,
+        "support": 236
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        84
+      ],
+      [
+        4,
+        232
+      ]
+    ],
+    "auc": 0.656922262059974
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 19,
+  "protocol_tag": "cross_fold19_test6",
+  "seed": 42,
+  "train_subjects": [
+    11,
+    23,
+    16,
+    18,
+    7,
+    21,
+    17,
+    14,
+    20,
+    26,
+    12
+  ],
+  "val_subjects": [
+    24,
+    22,
+    13,
+    2
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.49438372670218,
+    "best_epoch": 32
+  },
+  "metrics": {
+    "accuracy": 0.8647058823529412,
+    "balanced_accuracy": 0.619198312236287,
+    "kappa": 0.18778562525965936,
+    "precision": 0.9470198675496688,
+    "recall": 0.9050632911392406,
+    "f1": 0.9255663430420711,
+    "per_class": {
+      "0": {
+        "precision": 0.21052631578947367,
+        "recall": 0.3333333333333333,
+        "f1": 0.2580645161290323,
+        "support": 24
+      },
+      "1": {
+        "precision": 0.9470198675496688,
+        "recall": 0.9050632911392406,
+        "f1": 0.9255663430420711,
+        "support": 316
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        16
+      ],
+      [
+        30,
+        286
+      ]
+    ],
+    "auc": 0.7178270042194094
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 20,
+  "protocol_tag": "cross_fold20_test18",
+  "seed": 42,
+  "train_subjects": [
+    6,
+    12,
+    2,
+    20,
+    17,
+    7,
+    24,
+    26,
+    13,
+    11,
+    16
+  ],
+  "val_subjects": [
+    22,
+    21,
+    14,
+    23
+  ],
+  "test_subjects": [
+    18
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.4611976905617603,
+    "best_epoch": 38
+  },
+  "metrics": {
+    "accuracy": 0.7705882352941177,
+    "balanced_accuracy": 0.6034240263834327,
+    "kappa": 0.24336661911554924,
+    "precision": 0.8101694915254237,
+    "recall": 0.9157088122605364,
+    "f1": 0.8597122302158272,
+    "per_class": {
+      "0": {
+        "precision": 0.5111111111111111,
+        "recall": 0.2911392405063291,
+        "f1": 0.3709677419354839,
+        "support": 79
+      },
+      "1": {
+        "precision": 0.8101694915254237,
+        "recall": 0.9157088122605364,
+        "f1": 0.8597122302158272,
+        "support": 261
+      }
+    },
+    "confusion_matrix": [
+      [
+        23,
+        56
+      ],
+      [
+        22,
+        239
+      ]
+    ],
+    "auc": 0.6639992240166837
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 21,
+  "protocol_tag": "cross_fold21_test13",
+  "seed": 42,
+  "train_subjects": [
+    7,
+    20,
+    16,
+    12,
+    21,
+    24,
+    2,
+    11,
+    17,
+    22,
+    26
+  ],
+  "val_subjects": [
+    6,
+    23,
+    14,
+    18
+  ],
+  "test_subjects": [
+    13
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5067170653925386,
+    "best_epoch": 104
+  },
+  "metrics": {
+    "accuracy": 0.5970588235294118,
+    "balanced_accuracy": 0.5785476487723679,
+    "kappa": 0.1628324946081955,
+    "precision": 0.5672131147540984,
+    "recall": 0.9719101123595506,
+    "f1": 0.7163561076604555,
+    "per_class": {
+      "0": {
+        "precision": 0.8571428571428571,
+        "recall": 0.18518518518518517,
+        "f1": 0.3045685279187817,
+        "support": 162
+      },
+      "1": {
+        "precision": 0.5672131147540984,
+        "recall": 0.9719101123595506,
+        "f1": 0.7163561076604555,
+        "support": 178
+      }
+    },
+    "confusion_matrix": [
+      [
+        30,
+        132
+      ],
+      [
+        5,
+        173
+      ]
+    ],
+    "auc": 0.7941462061312248
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 22,
+  "protocol_tag": "cross_fold22_test11",
+  "seed": 42,
+  "train_subjects": [
+    17,
+    23,
+    12,
+    18,
+    24,
+    22,
+    14,
+    13,
+    7,
+    20,
+    21
+  ],
+  "val_subjects": [
+    2,
+    6,
+    16,
+    26
+  ],
+  "test_subjects": [
+    11
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.6065589023190875,
+    "best_epoch": 28
+  },
+  "metrics": {
+    "accuracy": 0.7058823529411765,
+    "balanced_accuracy": 0.5885990338164251,
+    "kappa": 0.21241602965022,
+    "precision": 0.7062706270627063,
+    "recall": 0.9511111111111111,
+    "f1": 0.8106060606060606,
+    "per_class": {
+      "0": {
+        "precision": 0.7027027027027027,
+        "recall": 0.22608695652173913,
+        "f1": 0.34210526315789475,
+        "support": 115
+      },
+      "1": {
+        "precision": 0.7062706270627063,
+        "recall": 0.9511111111111111,
+        "f1": 0.8106060606060606,
+        "support": 225
+      }
+    },
+    "confusion_matrix": [
+      [
+        26,
+        89
+      ],
+      [
+        11,
+        214
+      ]
+    ],
+    "auc": 0.710415458937198
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 23,
+  "protocol_tag": "cross_fold23_test17",
+  "seed": 42,
+  "train_subjects": [
+    14,
+    22,
+    16,
+    20,
+    11,
+    7,
+    12,
+    24,
+    21,
+    2,
+    23
+  ],
+  "val_subjects": [
+    13,
+    6,
+    26,
+    18
+  ],
+  "test_subjects": [
+    17
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.5691994435565416,
+    "best_epoch": 11
+  },
+  "metrics": {
+    "accuracy": 0.7852941176470588,
+    "balanced_accuracy": 0.7037338922527558,
+    "kappa": 0.45826785402479486,
+    "precision": 0.776173285198556,
+    "recall": 0.9513274336283186,
+    "f1": 0.8548707753479127,
+    "per_class": {
+      "0": {
+        "precision": 0.8253968253968254,
+        "recall": 0.45614035087719296,
+        "f1": 0.5875706214689266,
+        "support": 114
+      },
+      "1": {
+        "precision": 0.776173285198556,
+        "recall": 0.9513274336283186,
+        "f1": 0.8548707753479127,
+        "support": 226
+      }
+    },
+    "confusion_matrix": [
+      [
+        52,
+        62
+      ],
+      [
+        11,
+        215
+      ]
+    ],
+    "auc": 0.8378745536407389
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 24,
+  "protocol_tag": "cross_fold24_test14",
+  "seed": 42,
+  "train_subjects": [
+    26,
+    2,
+    18,
+    16,
+    24,
+    17,
+    21,
+    7,
+    13,
+    12,
+    23
+  ],
+  "val_subjects": [
+    6,
+    11,
+    22,
+    20
+  ],
+  "test_subjects": [
+    14
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.4724934043925862,
+    "best_epoch": 66
+  },
+  "metrics": {
+    "accuracy": 0.5941176470588235,
+    "balanced_accuracy": 0.5802790697674418,
+    "kappa": 0.1553555355535553,
+    "precision": 0.6974358974358974,
+    "recall": 0.6325581395348837,
+    "f1": 0.6634146341463414,
+    "per_class": {
+      "0": {
+        "precision": 0.45517241379310347,
+        "recall": 0.528,
+        "f1": 0.4888888888888889,
+        "support": 125
+      },
+      "1": {
+        "precision": 0.6974358974358974,
+        "recall": 0.6325581395348837,
+        "f1": 0.6634146341463414,
+        "support": 215
+      }
+    },
+    "confusion_matrix": [
+      [
+        66,
+        59
+      ],
+      [
+        79,
+        136
+      ]
+    ],
+    "auc": 0.6152930232558139
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 25,
+  "protocol_tag": "cross_fold25_test16",
+  "seed": 42,
+  "train_subjects": [
+    13,
+    17,
+    20,
+    6,
+    7,
+    26,
+    14,
+    12,
+    22,
+    11,
+    2
+  ],
+  "val_subjects": [
+    24,
+    23,
+    18,
+    21
+  ],
+  "test_subjects": [
+    16
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.4769957935394243,
+    "best_epoch": 18
+  },
+  "metrics": {
+    "accuracy": 0.6558823529411765,
+    "balanced_accuracy": 0.5510305301443844,
+    "kappa": 0.12255161461090525,
+    "precision": 0.6459627329192547,
+    "recall": 0.985781990521327,
+    "f1": 0.7804878048780489,
+    "per_class": {
+      "0": {
+        "precision": 0.8333333333333334,
+        "recall": 0.11627906976744186,
+        "f1": 0.20408163265306123,
+        "support": 129
+      },
+      "1": {
+        "precision": 0.6459627329192547,
+        "recall": 0.985781990521327,
+        "f1": 0.7804878048780489,
+        "support": 211
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        114
+      ],
+      [
+        3,
+        208
+      ]
+    ],
+    "auc": 0.7043609243543113
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 26,
+  "protocol_tag": "cross_fold26_test12",
+  "seed": 42,
+  "train_subjects": [
+    22,
+    2,
+    17,
+    21,
+    18,
+    20,
+    26,
+    14,
+    13,
+    24,
+    6
+  ],
+  "val_subjects": [
+    11,
+    16,
+    7,
+    23
+  ],
+  "test_subjects": [
+    12
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.538456795174022,
+    "best_epoch": 15
+  },
+  "metrics": {
+    "accuracy": 0.5705882352941176,
+    "balanced_accuracy": 0.5192193139213007,
+    "kappa": 0.04232742987228455,
+    "precision": 0.5657492354740061,
+    "recall": 0.9788359788359788,
+    "f1": 0.7170542635658915,
+    "per_class": {
+      "0": {
+        "precision": 0.6923076923076923,
+        "recall": 0.059602649006622516,
+        "f1": 0.10975609756097561,
+        "support": 151
+      },
+      "1": {
+        "precision": 0.5657492354740061,
+        "recall": 0.9788359788359788,
+        "f1": 0.7170542635658915,
+        "support": 189
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        142
+      ],
+      [
+        4,
+        185
+      ]
+    ],
+    "auc": 0.5854444794842145
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 27,
+  "protocol_tag": "cross_fold27_test13",
+  "seed": 42,
+  "train_subjects": [
+    11,
+    12,
+    16,
+    17,
+    6,
+    7,
+    23,
+    26,
+    18,
+    22,
+    14
+  ],
+  "val_subjects": [
+    24,
+    2,
+    20,
+    21
+  ],
+  "test_subjects": [
+    13
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.4921309227167174,
+    "best_epoch": 45
+  },
+  "metrics": {
+    "accuracy": 0.6647058823529411,
+    "balanced_accuracy": 0.649812734082397,
+    "kappa": 0.3083511777301927,
+    "precision": 0.6142857142857143,
+    "recall": 0.9662921348314607,
+    "f1": 0.7510917030567685,
+    "per_class": {
+      "0": {
+        "precision": 0.9,
+        "recall": 0.3333333333333333,
+        "f1": 0.48648648648648646,
+        "support": 162
+      },
+      "1": {
+        "precision": 0.6142857142857143,
+        "recall": 0.9662921348314607,
+        "f1": 0.7510917030567685,
+        "support": 178
+      }
+    },
+    "confusion_matrix": [
+      [
+        54,
+        108
+      ],
+      [
+        6,
+        172
+      ]
+    ],
+    "auc": 0.7957761131918436
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 28,
+  "protocol_tag": "cross_fold28_test12",
+  "seed": 42,
+  "train_subjects": [
+    13,
+    18,
+    17,
+    6,
+    14,
+    7,
+    21,
+    16,
+    2,
+    11,
+    22
+  ],
+  "val_subjects": [
+    24,
+    26,
+    23,
+    20
+  ],
+  "test_subjects": [
+    12
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.6146253382050714,
+    "best_epoch": 8
+  },
+  "metrics": {
+    "accuracy": 0.55,
+    "balanced_accuracy": 0.4960405059742808,
+    "kappa": -0.008765125659323525,
+    "precision": 0.5538922155688623,
+    "recall": 0.9788359788359788,
+    "f1": 0.7074569789674952,
+    "per_class": {
+      "0": {
+        "precision": 0.3333333333333333,
+        "recall": 0.013245033112582781,
+        "f1": 0.025477707006369428,
+        "support": 151
+      },
+      "1": {
+        "precision": 0.5538922155688623,
+        "recall": 0.9788359788359788,
+        "f1": 0.7074569789674952,
+        "support": 189
+      }
+    },
+    "confusion_matrix": [
+      [
+        2,
+        149
+      ],
+      [
+        4,
+        185
+      ]
+    ],
+    "auc": 0.5837275307473981
+  }
+}
+
+{
+  "dataset": "ern",
+  "model": "eegnet_ms_se",
+  "protocol": "cross",
+  "fold_id": 29,
+  "protocol_tag": "cross_fold29_test16",
+  "seed": 42,
+  "train_subjects": [
+    14,
+    20,
+    6,
+    11,
+    2,
+    26,
+    24,
+    18,
+    13,
+    22,
+    23
+  ],
+  "val_subjects": [
+    12,
+    21,
+    17,
+    7
+  ],
+  "test_subjects": [
+    16
+  ],
+  "n_train": 3740,
+  "n_val": 1360,
+  "n_test": 340,
+  "train_info": {
+    "best_val_loss": 0.48396731947743615,
+    "best_epoch": 21
+  },
+  "metrics": {
+    "accuracy": 0.6558823529411765,
+    "balanced_accuracy": 0.5510305301443844,
+    "kappa": 0.12255161461090525,
+    "precision": 0.6459627329192547,
+    "recall": 0.985781990521327,
+    "f1": 0.7804878048780489,
+    "per_class": {
+      "0": {
+        "precision": 0.8333333333333334,
+        "recall": 0.11627906976744186,
+        "f1": 0.20408163265306123,
+        "support": 129
+      },
+      "1": {
+        "precision": 0.6459627329192547,
+        "recall": 0.985781990521327,
+        "f1": 0.7804878048780489,
+        "support": 211
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        114
+      ],
+      [
+        3,
+        208
+      ]
+    ],
+    "auc": 0.7302986884161798
+  }
+}
+
+
