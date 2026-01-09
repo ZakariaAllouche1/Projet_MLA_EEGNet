@@ -1,0 +1,3131 @@
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub1_fold0",
+  "seed": 42,
+  "train_subjects": [
+    1
+  ],
+  "val_subjects": [
+    1
+  ],
+  "test_subjects": [
+    1
+  ],
+  "n_train": 136,
+  "n_val": 68,
+  "n_test": 69,
+  "train_info": {
+    "best_val_loss": 0.5472250382105509,
+    "best_epoch": 351
+  },
+  "metrics": {
+    "accuracy": 0.5507246376811594,
+    "balanced_accuracy": 0.566124871001032,
+    "kappa": 0.40731504571903576,
+    "precision": 0.5898148148148148,
+    "recall": 0.566124871001032,
+    "f1": 0.5446969696969697,
+    "per_class": {
+      "0": {
+        "precision": 0.7777777777777778,
+        "recall": 0.3684210526315789,
+        "f1": 0.5,
+        "support": 19
+      },
+      "1": {
+        "precision": 0.48148148148148145,
+        "recall": 0.8666666666666667,
+        "f1": 0.6190476190476191,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.5294117647058824,
+        "f1": 0.5142857142857143,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.6,
+        "recall": 0.5,
+        "f1": 0.5454545454545454,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        7,
+        9,
+        1,
+        2
+      ],
+      [
+        2,
+        13,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        9,
+        4
+      ],
+      [
+        0,
+        1,
+        8,
+        9
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8643092932179619
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub1_fold1",
+  "seed": 42,
+  "train_subjects": [
+    1
+  ],
+  "val_subjects": [
+    1
+  ],
+  "test_subjects": [
+    1
+  ],
+  "n_train": 137,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.763405054807663,
+    "best_epoch": 186
+  },
+  "metrics": {
+    "accuracy": 0.6029411764705882,
+    "balanced_accuracy": 0.6139093137254903,
+    "kappa": 0.47347289934040726,
+    "precision": 0.5836744776962168,
+    "recall": 0.6139093137254903,
+    "f1": 0.571509009009009,
+    "per_class": {
+      "0": {
+        "precision": 0.5652173913043478,
+        "recall": 0.8125,
+        "f1": 0.6666666666666667,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666665,
+        "support": 20
+      },
+      "2": {
+        "precision": 0.42857142857142855,
+        "recall": 0.17647058823529413,
+        "f1": 0.25,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.5909090909090909,
+        "recall": 0.8666666666666667,
+        "f1": 0.7027027027027029,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        2,
+        1,
+        0
+      ],
+      [
+        7,
+        12,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        9
+      ],
+      [
+        0,
+        0,
+        2,
+        13
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8832820872735673
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub1_fold2",
+  "seed": 42,
+  "train_subjects": [
+    1
+  ],
+  "val_subjects": [
+    1
+  ],
+  "test_subjects": [
+    1
+  ],
+  "n_train": 137,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.6597219506899515,
+    "best_epoch": 210
+  },
+  "metrics": {
+    "accuracy": 0.6617647058823529,
+    "balanced_accuracy": 0.6416666666666666,
+    "kappa": 0.5432242990654206,
+    "precision": 0.6529761904761905,
+    "recall": 0.6416666666666666,
+    "f1": 0.6362072225373416,
+    "per_class": {
+      "0": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666665,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.7619047619047619,
+        "recall": 0.8,
+        "f1": 0.7804878048780488,
+        "support": 20
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4,
+        "support": 15
+      },
+      "3": {
+        "precision": 0.6,
+        "recall": 0.8333333333333334,
+        "f1": 0.6976744186046512,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        5,
+        1,
+        0
+      ],
+      [
+        1,
+        16,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        5,
+        9
+      ],
+      [
+        1,
+        0,
+        2,
+        15
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.902282822327044
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub1_fold3",
+  "seed": 42,
+  "train_subjects": [
+    1
+  ],
+  "val_subjects": [
+    1
+  ],
+  "test_subjects": [
+    1
+  ],
+  "n_train": 136,
+  "n_val": 69,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.8819874326388041,
+    "best_epoch": 290
+  },
+  "metrics": {
+    "accuracy": 0.6029411764705882,
+    "balanced_accuracy": 0.6398026315789473,
+    "kappa": 0.48091603053435117,
+    "precision": 0.6401340996168583,
+    "recall": 0.6398026315789473,
+    "f1": 0.585683417980932,
+    "per_class": {
+      "0": {
+        "precision": 0.6,
+        "recall": 0.3157894736842105,
+        "f1": 0.41379310344827586,
+        "support": 19
+      },
+      "1": {
+        "precision": 0.4827586206896552,
+        "recall": 1.0,
+        "f1": 0.6511627906976745,
+        "support": 14
+      },
+      "2": {
+        "precision": 0.7777777777777778,
+        "recall": 0.3684210526315789,
+        "f1": 0.5,
+        "support": 19
+      },
+      "3": {
+        "precision": 0.7,
+        "recall": 0.875,
+        "f1": 0.7777777777777777,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        12,
+        1,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        4,
+        2,
+        7,
+        6
+      ],
+      [
+        0,
+        1,
+        1,
+        14
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.910616169544741
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub2_fold0",
+  "seed": 42,
+  "train_subjects": [
+    2
+  ],
+  "val_subjects": [
+    2
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 134,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 1.3213882048924763,
+    "best_epoch": 491
+  },
+  "metrics": {
+    "accuracy": 0.27941176470588236,
+    "balanced_accuracy": 0.29381127450980393,
+    "kappa": 0.04362801377726744,
+    "precision": 0.296875,
+    "recall": 0.29381127450980393,
+    "f1": 0.2697174883343477,
+    "per_class": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 20
+      },
+      "1": {
+        "precision": 0.25,
+        "recall": 0.5294117647058824,
+        "f1": 0.33962264150943394,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.625,
+        "recall": 0.3125,
+        "f1": 0.4166666666666667,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.3125,
+        "recall": 0.3333333333333333,
+        "f1": 0.3225806451612903,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        15,
+        0,
+        5
+      ],
+      [
+        3,
+        9,
+        2,
+        3
+      ],
+      [
+        4,
+        4,
+        5,
+        3
+      ],
+      [
+        1,
+        8,
+        1,
+        5
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.6184330013220605
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub2_fold1",
+  "seed": 42,
+  "train_subjects": [
+    2
+  ],
+  "val_subjects": [
+    2
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 135,
+  "n_val": 67,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 1.191638668378194,
+    "best_epoch": 241
+  },
+  "metrics": {
+    "accuracy": 0.5147058823529411,
+    "balanced_accuracy": 0.5034891149442233,
+    "kappa": 0.3457725947521866,
+    "precision": 0.5514163372859026,
+    "recall": 0.5034891149442233,
+    "f1": 0.5104216297976933,
+    "per_class": {
+      "0": {
+        "precision": 0.36363636363636365,
+        "recall": 0.2857142857142857,
+        "f1": 0.32,
+        "support": 14
+      },
+      "1": {
+        "precision": 0.3333333333333333,
+        "recall": 0.42105263157894735,
+        "f1": 0.372093023255814,
+        "support": 19
+      },
+      "2": {
+        "precision": 0.9,
+        "recall": 0.5294117647058824,
+        "f1": 0.6666666666666667,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.6086956521739131,
+        "recall": 0.7777777777777778,
+        "f1": 0.6829268292682927,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        9,
+        0,
+        1
+      ],
+      [
+        6,
+        8,
+        0,
+        5
+      ],
+      [
+        0,
+        5,
+        9,
+        3
+      ],
+      [
+        1,
+        2,
+        1,
+        14
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.767411396963326
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub2_fold2",
+  "seed": 42,
+  "train_subjects": [
+    2
+  ],
+  "val_subjects": [
+    2
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 136,
+  "n_val": 67,
+  "n_test": 67,
+  "train_info": {
+    "best_val_loss": 1.0090699593226116,
+    "best_epoch": 379
+  },
+  "metrics": {
+    "accuracy": 0.5223880597014925,
+    "balanced_accuracy": 0.5223651960784313,
+    "kappa": 0.3609538002980627,
+    "precision": 0.5114372469635627,
+    "recall": 0.5223651960784313,
+    "f1": 0.5032948532948534,
+    "per_class": {
+      "0": {
+        "precision": 0.4,
+        "recall": 0.23529411764705882,
+        "f1": 0.29629629629629634,
+        "support": 17
+      },
+      "1": {
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1": 0.42857142857142855,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.6842105263157895,
+        "recall": 0.8125,
+        "f1": 0.742857142857143,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.46153846153846156,
+        "recall": 0.6666666666666666,
+        "f1": 0.5454545454545455,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        4,
+        1,
+        8
+      ],
+      [
+        2,
+        6,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        13,
+        1
+      ],
+      [
+        4,
+        0,
+        2,
+        12
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.7947682406295853
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub2_fold3",
+  "seed": 42,
+  "train_subjects": [
+    2
+  ],
+  "val_subjects": [
+    2
+  ],
+  "test_subjects": [
+    2
+  ],
+  "n_train": 135,
+  "n_val": 68,
+  "n_test": 67,
+  "train_info": {
+    "best_val_loss": 1.342670162518819,
+    "best_epoch": 6
+  },
+  "metrics": {
+    "accuracy": 0.23880597014925373,
+    "balanced_accuracy": 0.25,
+    "kappa": 0.0,
+    "precision": 0.05970149253731343,
+    "recall": 0.25,
+    "f1": 0.09638554216867469,
+    "per_class": {
+      "0": {
+        "precision": 0.23880597014925373,
+        "recall": 1.0,
+        "f1": 0.38554216867469876,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.5001531862745098
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub3_fold0",
+  "seed": 42,
+  "train_subjects": [
+    3
+  ],
+  "val_subjects": [
+    3
+  ],
+  "test_subjects": [
+    3
+  ],
+  "n_train": 134,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.6028593977292379,
+    "best_epoch": 251
+  },
+  "metrics": {
+    "accuracy": 0.7352941176470589,
+    "balanced_accuracy": 0.6811274509803922,
+    "kappa": 0.6392572944297082,
+    "precision": 0.5815217391304348,
+    "recall": 0.6811274509803922,
+    "f1": 0.6243855171109851,
+    "per_class": {
+      "0": {
+        "precision": 0.8260869565217391,
+        "recall": 0.95,
+        "f1": 0.8837209302325583,
+        "support": 20
+      },
+      "1": {
+        "precision": 0.6666666666666666,
+        "recall": 0.9411764705882353,
+        "f1": 0.7804878048780487,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 13
+      },
+      "3": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        19,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        16,
+        0,
+        0
+      ],
+      [
+        3,
+        7,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        15
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.89241175521182
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub3_fold1",
+  "seed": 42,
+  "train_subjects": [
+    3
+  ],
+  "val_subjects": [
+    3
+  ],
+  "test_subjects": [
+    3
+  ],
+  "n_train": 135,
+  "n_val": 67,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.4991900871197383,
+    "best_epoch": 293
+  },
+  "metrics": {
+    "accuracy": 0.6323529411764706,
+    "balanced_accuracy": 0.6454592363261094,
+    "kappa": 0.5095210617426428,
+    "precision": 0.6311337355455002,
+    "recall": 0.6454592363261094,
+    "f1": 0.6337556306306306,
+    "per_class": {
+      "0": {
+        "precision": 0.7647058823529411,
+        "recall": 0.8666666666666667,
+        "f1": 0.8125,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.7,
+        "recall": 0.8235294117647058,
+        "f1": 0.7567567567567567,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.4444444444444444,
+        "recall": 0.42105263157894735,
+        "f1": 0.43243243243243246,
+        "support": 19
+      },
+      "3": {
+        "precision": 0.6153846153846154,
+        "recall": 0.47058823529411764,
+        "f1": 0.5333333333333333,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        14,
+        2,
+        0
+      ],
+      [
+        2,
+        4,
+        8,
+        5
+      ],
+      [
+        1,
+        1,
+        7,
+        8
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.888551676292925
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub3_fold2",
+  "seed": 42,
+  "train_subjects": [
+    3
+  ],
+  "val_subjects": [
+    3
+  ],
+  "test_subjects": [
+    3
+  ],
+  "n_train": 136,
+  "n_val": 67,
+  "n_test": 67,
+  "train_info": {
+    "best_val_loss": 0.5403416156768799,
+    "best_epoch": 463
+  },
+  "metrics": {
+    "accuracy": 0.7761194029850746,
+    "balanced_accuracy": 0.7680921052631579,
+    "kappa": 0.7008928571428571,
+    "precision": 0.7620614035087718,
+    "recall": 0.7680921052631579,
+    "f1": 0.7508897243107769,
+    "per_class": {
+      "0": {
+        "precision": 0.75,
+        "recall": 0.9375,
+        "f1": 0.8333333333333334,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1": 0.9473684210526315,
+        "support": 19
+      },
+      "2": {
+        "precision": 0.6666666666666666,
+        "recall": 0.375,
+        "f1": 0.4800000000000001,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.6842105263157895,
+        "recall": 0.8125,
+        "f1": 0.742857142857143,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        18,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        6,
+        5
+      ],
+      [
+        1,
+        0,
+        2,
+        13
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9241163570691435
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub3_fold3",
+  "seed": 42,
+  "train_subjects": [
+    3
+  ],
+  "val_subjects": [
+    3
+  ],
+  "test_subjects": [
+    3
+  ],
+  "n_train": 135,
+  "n_val": 68,
+  "n_test": 67,
+  "train_info": {
+    "best_val_loss": 0.32974178592363995,
+    "best_epoch": 500
+  },
+  "metrics": {
+    "accuracy": 0.7014925373134329,
+    "balanced_accuracy": 0.7034722222222222,
+    "kappa": 0.6022558622736717,
+    "precision": 0.7062499999999999,
+    "recall": 0.7034722222222222,
+    "f1": 0.7017045454545454,
+    "per_class": {
+      "0": {
+        "precision": 0.8666666666666667,
+        "recall": 0.7222222222222222,
+        "f1": 0.7878787878787877,
+        "support": 18
+      },
+      "1": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1": 0.7272727272727272,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.625,
+        "recall": 0.625,
+        "f1": 0.625,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        3,
+        1,
+        1
+      ],
+      [
+        1,
+        12,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        12,
+        3
+      ],
+      [
+        0,
+        1,
+        5,
+        10
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9216976213562348
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub4_fold0",
+  "seed": 42,
+  "train_subjects": [
+    4
+  ],
+  "val_subjects": [
+    4
+  ],
+  "test_subjects": [
+    4
+  ],
+  "n_train": 130,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 1.177160342534383,
+    "best_epoch": 343
+  },
+  "metrics": {
+    "accuracy": 0.3787878787878788,
+    "balanced_accuracy": 0.3805147058823529,
+    "kappa": 0.17474839890210436,
+    "precision": 0.44604885057471266,
+    "recall": 0.3805147058823529,
+    "f1": 0.37897041062801934,
+    "per_class": {
+      "0": {
+        "precision": 0.27586206896551724,
+        "recall": 0.5,
+        "f1": 0.35555555555555557,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.375,
+        "recall": 0.375,
+        "f1": 0.375,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.4666666666666667,
+        "recall": 0.4117647058823529,
+        "f1": 0.43749999999999994,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.6666666666666666,
+        "recall": 0.23529411764705882,
+        "f1": 0.3478260869565218,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        4,
+        3,
+        1
+      ],
+      [
+        8,
+        6,
+        2,
+        0
+      ],
+      [
+        7,
+        2,
+        7,
+        1
+      ],
+      [
+        6,
+        4,
+        3,
+        4
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.657251275510204
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub4_fold1",
+  "seed": 42,
+  "train_subjects": [
+    4
+  ],
+  "val_subjects": [
+    4
+  ],
+  "test_subjects": [
+    4
+  ],
+  "n_train": 131,
+  "n_val": 65,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 1.1695082187652588,
+    "best_epoch": 150
+  },
+  "metrics": {
+    "accuracy": 0.3939393939393939,
+    "balanced_accuracy": 0.39380482456140353,
+    "kappa": 0.1881918819188192,
+    "precision": 0.4041666666666667,
+    "recall": 0.39380482456140353,
+    "f1": 0.3898860398860399,
+    "per_class": {
+      "0": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.4,
+        "recall": 0.42105263157894735,
+        "f1": 0.41025641025641024,
+        "support": 19
+      },
+      "2": {
+        "precision": 0.3,
+        "recall": 0.1875,
+        "f1": 0.23076923076923075,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.5833333333333334,
+        "recall": 0.4666666666666667,
+        "f1": 0.5185185185185186,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        5,
+        1,
+        2
+      ],
+      [
+        7,
+        8,
+        3,
+        1
+      ],
+      [
+        6,
+        5,
+        3,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        7
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.6616319604549546
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub4_fold2",
+  "seed": 42,
+  "train_subjects": [
+    4
+  ],
+  "val_subjects": [
+    4
+  ],
+  "test_subjects": [
+    4
+  ],
+  "n_train": 132,
+  "n_val": 65,
+  "n_test": 65,
+  "train_info": {
+    "best_val_loss": 1.1290427843729656,
+    "best_epoch": 488
+  },
+  "metrics": {
+    "accuracy": 0.4461538461538462,
+    "balanced_accuracy": 0.4525219298245614,
+    "kappa": 0.26415094339622636,
+    "precision": 0.4788095238095238,
+    "recall": 0.4525219298245614,
+    "f1": 0.4542087542087542,
+    "per_class": {
+      "0": {
+        "precision": 0.32,
+        "recall": 0.5333333333333333,
+        "f1": 0.4,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5333333333333333,
+        "f1": 0.5925925925925926,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.42857142857142855,
+        "recall": 0.375,
+        "f1": 0.39999999999999997,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.5,
+        "recall": 0.3684210526315789,
+        "f1": 0.4242424242424242,
+        "support": 19
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        3,
+        3,
+        1
+      ],
+      [
+        6,
+        8,
+        0,
+        1
+      ],
+      [
+        5,
+        0,
+        6,
+        5
+      ],
+      [
+        6,
+        1,
+        5,
+        7
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.744516008577344
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub4_fold3",
+  "seed": 42,
+  "train_subjects": [
+    4
+  ],
+  "val_subjects": [
+    4
+  ],
+  "test_subjects": [
+    4
+  ],
+  "n_train": 131,
+  "n_val": 66,
+  "n_test": 65,
+  "train_info": {
+    "best_val_loss": 1.136043111483256,
+    "best_epoch": 293
+  },
+  "metrics": {
+    "accuracy": 0.4307692307692308,
+    "balanced_accuracy": 0.4446078431372549,
+    "kappa": 0.24843749999999998,
+    "precision": 0.4325320512820513,
+    "recall": 0.4446078431372549,
+    "f1": 0.4168498168498169,
+    "per_class": {
+      "0": {
+        "precision": 0.4166666666666667,
+        "recall": 0.6666666666666666,
+        "f1": 0.5128205128205129,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.5384615384615384,
+        "recall": 0.4117647058823529,
+        "f1": 0.4666666666666667,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.375,
+        "recall": 0.16666666666666666,
+        "f1": 0.23076923076923078,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.4,
+        "recall": 0.5333333333333333,
+        "f1": 0.4571428571428572,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        2,
+        2,
+        1
+      ],
+      [
+        6,
+        7,
+        1,
+        3
+      ],
+      [
+        6,
+        1,
+        3,
+        8
+      ],
+      [
+        2,
+        3,
+        2,
+        8
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.7254134334584899
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub5_fold0",
+  "seed": 42,
+  "train_subjects": [
+    5
+  ],
+  "val_subjects": [
+    5
+  ],
+  "test_subjects": [
+    5
+  ],
+  "n_train": 130,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 1.2960208654403687,
+    "best_epoch": 245
+  },
+  "metrics": {
+    "accuracy": 0.2878787878787879,
+    "balanced_accuracy": 0.28273809523809523,
+    "kappa": 0.04904966278356837,
+    "precision": 0.2862390350877193,
+    "recall": 0.28273809523809523,
+    "f1": 0.2838325042309862,
+    "per_class": {
+      "0": {
+        "precision": 0.3157894736842105,
+        "recall": 0.3333333333333333,
+        "f1": 0.3243243243243243,
+        "support": 18
+      },
+      "1": {
+        "precision": 0.26666666666666666,
+        "recall": 0.25,
+        "f1": 0.2580645161290323,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.1875,
+        "recall": 0.21428571428571427,
+        "f1": 0.19999999999999998,
+        "support": 14
+      },
+      "3": {
+        "precision": 0.375,
+        "recall": 0.3333333333333333,
+        "f1": 0.35294117647058826,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        3,
+        5,
+        4
+      ],
+      [
+        3,
+        4,
+        7,
+        2
+      ],
+      [
+        5,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        1,
+        6
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.5831210571835572
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub5_fold1",
+  "seed": 42,
+  "train_subjects": [
+    5
+  ],
+  "val_subjects": [
+    5
+  ],
+  "test_subjects": [
+    5
+  ],
+  "n_train": 131,
+  "n_val": 65,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 1.1571651101112366,
+    "best_epoch": 444
+  },
+  "metrics": {
+    "accuracy": 0.3484848484848485,
+    "balanced_accuracy": 0.3549729102167183,
+    "kappa": 0.13396399145559967,
+    "precision": 0.35728469899665555,
+    "recall": 0.3549729102167183,
+    "f1": 0.34965034965034963,
+    "per_class": {
+      "0": {
+        "precision": 0.4375,
+        "recall": 0.5,
+        "f1": 0.4666666666666667,
+        "support": 14
+      },
+      "1": {
+        "precision": 0.23076923076923078,
+        "recall": 0.17647058823529413,
+        "f1": 0.20000000000000004,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.3684210526315789,
+        "f1": 0.4242424242424242,
+        "support": 19
+      },
+      "3": {
+        "precision": 0.2608695652173913,
+        "recall": 0.375,
+        "f1": 0.30769230769230765,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        7,
+        1,
+        2,
+        4
+      ],
+      [
+        5,
+        3,
+        2,
+        7
+      ],
+      [
+        2,
+        4,
+        7,
+        6
+      ],
+      [
+        2,
+        5,
+        3,
+        6
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.6221629710545602
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub5_fold2",
+  "seed": 42,
+  "train_subjects": [
+    5
+  ],
+  "val_subjects": [
+    5
+  ],
+  "test_subjects": [
+    5
+  ],
+  "n_train": 132,
+  "n_val": 65,
+  "n_test": 65,
+  "train_info": {
+    "best_val_loss": 1.3340839942296345,
+    "best_epoch": 186
+  },
+  "metrics": {
+    "accuracy": 0.47692307692307695,
+    "balanced_accuracy": 0.4744218200100553,
+    "kappa": 0.302839116719243,
+    "precision": 0.47916666666666663,
+    "recall": 0.4744218200100553,
+    "f1": 0.46423292154999474,
+    "per_class": {
+      "0": {
+        "precision": 0.3333333333333333,
+        "recall": 0.38461538461538464,
+        "f1": 0.3571428571428571,
+        "support": 13
+      },
+      "1": {
+        "precision": 0.625,
+        "recall": 0.5882352941176471,
+        "f1": 0.6060606060606061,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.2777777777777778,
+        "f1": 0.35714285714285715,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.4583333333333333,
+        "recall": 0.6470588235294118,
+        "f1": 0.5365853658536585,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        2,
+        3,
+        3
+      ],
+      [
+        0,
+        10,
+        2,
+        5
+      ],
+      [
+        7,
+        1,
+        5,
+        5
+      ],
+      [
+        3,
+        3,
+        0,
+        11
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.6474183603106776
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub5_fold3",
+  "seed": 42,
+  "train_subjects": [
+    5
+  ],
+  "val_subjects": [
+    5
+  ],
+  "test_subjects": [
+    5
+  ],
+  "n_train": 131,
+  "n_val": 66,
+  "n_test": 65,
+  "train_info": {
+    "best_val_loss": 1.342772642771403,
+    "best_epoch": 16
+  },
+  "metrics": {
+    "accuracy": 0.24615384615384617,
+    "balanced_accuracy": 0.25,
+    "kappa": 0.0,
+    "precision": 0.06153846153846154,
+    "recall": 0.25,
+    "f1": 0.09876543209876544,
+    "per_class": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 18
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 15
+      },
+      "3": {
+        "precision": 0.24615384615384617,
+        "recall": 1.0,
+        "f1": 0.39506172839506176,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        18
+      ],
+      [
+        0,
+        0,
+        0,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        15
+      ],
+      [
+        0,
+        0,
+        0,
+        16
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.5827590099869735
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub6_fold0",
+  "seed": 42,
+  "train_subjects": [
+    6
+  ],
+  "val_subjects": [
+    6
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 109,
+  "n_val": 55,
+  "n_test": 55,
+  "train_info": {
+    "best_val_loss": 1.2896708250045776,
+    "best_epoch": 264
+  },
+  "metrics": {
+    "accuracy": 0.36363636363636365,
+    "balanced_accuracy": 0.353525641025641,
+    "kappa": 0.1470979175897209,
+    "precision": 0.34557109557109555,
+    "recall": 0.353525641025641,
+    "f1": 0.34024003024003024,
+    "per_class": {
+      "0": {
+        "precision": 0.45454545454545453,
+        "recall": 0.6666666666666666,
+        "f1": 0.5405405405405405,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.23076923076923078,
+        "recall": 0.25,
+        "f1": 0.24000000000000002,
+        "support": 12
+      },
+      "2": {
+        "precision": 0.3333333333333333,
+        "recall": 0.23076923076923078,
+        "f1": 0.27272727272727276,
+        "support": 13
+      },
+      "3": {
+        "precision": 0.36363636363636365,
+        "recall": 0.26666666666666666,
+        "f1": 0.30769230769230765,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        4
+      ],
+      [
+        5,
+        2,
+        3,
+        3
+      ],
+      [
+        4,
+        5,
+        2,
+        4
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.632159787886532
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub6_fold1",
+  "seed": 42,
+  "train_subjects": [
+    6
+  ],
+  "val_subjects": [
+    6
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 109,
+  "n_val": 55,
+  "n_test": 55,
+  "train_info": {
+    "best_val_loss": 1.386973798274994,
+    "best_epoch": 81
+  },
+  "metrics": {
+    "accuracy": 0.3090909090909091,
+    "balanced_accuracy": 0.33617424242424243,
+    "kappa": 0.1064557503206498,
+    "precision": 0.36352813852813853,
+    "recall": 0.33617424242424243,
+    "f1": 0.30275715800636266,
+    "per_class": {
+      "0": {
+        "precision": 0.5714285714285714,
+        "recall": 0.25,
+        "f1": 0.34782608695652173,
+        "support": 16
+      },
+      "1": {
+        "precision": 0.2857142857142857,
+        "recall": 0.125,
+        "f1": 0.17391304347826086,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.36363636363636365,
+        "recall": 0.3333333333333333,
+        "f1": 0.34782608695652173,
+        "support": 12
+      },
+      "3": {
+        "precision": 0.23333333333333334,
+        "recall": 0.6363636363636364,
+        "f1": 0.34146341463414637,
+        "support": 11
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        3,
+        1,
+        8
+      ],
+      [
+        1,
+        2,
+        3,
+        10
+      ],
+      [
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        0,
+        3,
+        7
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.6473505793008965
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub6_fold2",
+  "seed": 42,
+  "train_subjects": [
+    6
+  ],
+  "val_subjects": [
+    6
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 110,
+  "n_val": 54,
+  "n_test": 55,
+  "train_info": {
+    "best_val_loss": 1.318783462047577,
+    "best_epoch": 109
+  },
+  "metrics": {
+    "accuracy": 0.2545454545454545,
+    "balanced_accuracy": 0.25864656177156176,
+    "kappa": 0.0066079295154185536,
+    "precision": 0.27693713450292395,
+    "recall": 0.25864656177156176,
+    "f1": 0.257034632034632,
+    "per_class": {
+      "0": {
+        "precision": 0.21052631578947367,
+        "recall": 0.3076923076923077,
+        "f1": 0.25,
+        "support": 13
+      },
+      "1": {
+        "precision": 0.2222222222222222,
+        "recall": 0.26666666666666666,
+        "f1": 0.2424242424242424,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.3,
+        "recall": 0.2727272727272727,
+        "f1": 0.28571428571428564,
+        "support": 11
+      },
+      "3": {
+        "precision": 0.375,
+        "recall": 0.1875,
+        "f1": 0.25,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        5,
+        3,
+        1
+      ],
+      [
+        7,
+        4,
+        3,
+        1
+      ],
+      [
+        0,
+        5,
+        3,
+        3
+      ],
+      [
+        8,
+        4,
+        1,
+        3
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.5116731942300125
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub6_fold3",
+  "seed": 42,
+  "train_subjects": [
+    6
+  ],
+  "val_subjects": [
+    6
+  ],
+  "test_subjects": [
+    6
+  ],
+  "n_train": 110,
+  "n_val": 55,
+  "n_test": 54,
+  "train_info": {
+    "best_val_loss": 1.3320808410644531,
+    "best_epoch": 178
+  },
+  "metrics": {
+    "accuracy": 0.25925925925925924,
+    "balanced_accuracy": 0.26405677655677656,
+    "kappa": 0.009628610729023324,
+    "precision": 0.26413690476190477,
+    "recall": 0.26405677655677656,
+    "f1": 0.2576463560334528,
+    "per_class": {
+      "0": {
+        "precision": 0.3333333333333333,
+        "recall": 0.4166666666666667,
+        "f1": 0.3703703703703704,
+        "support": 12
+      },
+      "1": {
+        "precision": 0.25,
+        "recall": 0.2857142857142857,
+        "f1": 0.26666666666666666,
+        "support": 14
+      },
+      "2": {
+        "precision": 0.2857142857142857,
+        "recall": 0.15384615384615385,
+        "f1": 0.2,
+        "support": 13
+      },
+      "3": {
+        "precision": 0.1875,
+        "recall": 0.2,
+        "f1": 0.19354838709677422,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        5,
+        0,
+        2
+      ],
+      [
+        2,
+        4,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        2,
+        6
+      ],
+      [
+        6,
+        4,
+        2,
+        3
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.5815029482712409
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub7_fold0",
+  "seed": 42,
+  "train_subjects": [
+    7
+  ],
+  "val_subjects": [
+    7
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 135,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.7550271352132162,
+    "best_epoch": 277
+  },
+  "metrics": {
+    "accuracy": 0.6617647058823529,
+    "balanced_accuracy": 0.6709033613445378,
+    "kappa": 0.5446870451237263,
+    "precision": 0.7036607142857143,
+    "recall": 0.6709033613445378,
+    "f1": 0.6814574314574314,
+    "per_class": {
+      "0": {
+        "precision": 0.52,
+        "recall": 0.65,
+        "f1": 0.5777777777777778,
+        "support": 20
+      },
+      "1": {
+        "precision": 0.4375,
+        "recall": 0.4117647058823529,
+        "f1": 0.42424242424242425,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1": 0.8571428571428571,
+        "support": 14
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.7647058823529411,
+        "f1": 0.8666666666666666,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        7,
+        0,
+        0
+      ],
+      [
+        10,
+        7,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        13
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9008167932205562
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub7_fold1",
+  "seed": 42,
+  "train_subjects": [
+    7
+  ],
+  "val_subjects": [
+    7
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 135,
+  "n_val": 68,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.8375061750411987,
+    "best_epoch": 479
+  },
+  "metrics": {
+    "accuracy": 0.6323529411764706,
+    "balanced_accuracy": 0.611141825151113,
+    "kappa": 0.5072463768115942,
+    "precision": 0.599034090909091,
+    "recall": 0.611141825151113,
+    "f1": 0.5965622612681436,
+    "per_class": {
+      "0": {
+        "precision": 0.375,
+        "recall": 0.42857142857142855,
+        "f1": 0.39999999999999997,
+        "support": 14
+      },
+      "1": {
+        "precision": 0.36363636363636365,
+        "recall": 0.23529411764705882,
+        "f1": 0.2857142857142857,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.9375,
+        "recall": 0.8333333333333334,
+        "f1": 0.8823529411764706,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.72,
+        "recall": 0.9473684210526315,
+        "f1": 0.8181818181818181,
+        "support": 19
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        6,
+        0,
+        2
+      ],
+      [
+        9,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        0,
+        15,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        18
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8847338622411469
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub7_fold2",
+  "seed": 42,
+  "train_subjects": [
+    7
+  ],
+  "val_subjects": [
+    7
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 136,
+  "n_val": 67,
+  "n_test": 68,
+  "train_info": {
+    "best_val_loss": 0.9828470150629679,
+    "best_epoch": 498
+  },
+  "metrics": {
+    "accuracy": 0.5588235294117647,
+    "balanced_accuracy": 0.5684640522875817,
+    "kappa": 0.41463414634146345,
+    "precision": 0.5539545194508009,
+    "recall": 0.5684640522875817,
+    "f1": 0.5457062496536181,
+    "per_class": {
+      "0": {
+        "precision": 0.5217391304347826,
+        "recall": 0.8,
+        "f1": 0.6315789473684211,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.5625,
+        "recall": 0.5294117647058824,
+        "f1": 0.5454545454545455,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.2777777777777778,
+        "f1": 0.35714285714285715,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.631578947368421,
+        "recall": 0.6666666666666666,
+        "f1": 0.6486486486486486,
+        "support": 18
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        3,
+        0,
+        0
+      ],
+      [
+        6,
+        9,
+        2,
+        0
+      ],
+      [
+        4,
+        2,
+        5,
+        7
+      ],
+      [
+        1,
+        2,
+        3,
+        12
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8246008066563659
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub7_fold3",
+  "seed": 42,
+  "train_subjects": [
+    7
+  ],
+  "val_subjects": [
+    7
+  ],
+  "test_subjects": [
+    7
+  ],
+  "n_train": 136,
+  "n_val": 68,
+  "n_test": 67,
+  "train_info": {
+    "best_val_loss": 0.5973157584667206,
+    "best_epoch": 487
+  },
+  "metrics": {
+    "accuracy": 0.5970149253731343,
+    "balanced_accuracy": 0.5954248366013072,
+    "kappa": 0.46368218203379774,
+    "precision": 0.5948183760683761,
+    "recall": 0.5954248366013072,
+    "f1": 0.5893107183429764,
+    "per_class": {
+      "0": {
+        "precision": 0.6153846153846154,
+        "recall": 0.4444444444444444,
+        "f1": 0.5161290322580646,
+        "support": 18
+      },
+      "1": {
+        "precision": 0.3888888888888889,
+        "recall": 0.4666666666666667,
+        "f1": 0.42424242424242425,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.75,
+        "recall": 0.8823529411764706,
+        "f1": 0.8108108108108107,
+        "support": 17
+      },
+      "3": {
+        "precision": 0.625,
+        "recall": 0.5882352941176471,
+        "f1": 0.6060606060606061,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        10,
+        0,
+        0
+      ],
+      [
+        4,
+        7,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        15,
+        2
+      ],
+      [
+        1,
+        1,
+        5,
+        10
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8766319861277844
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub8_fold0",
+  "seed": 42,
+  "train_subjects": [
+    8
+  ],
+  "val_subjects": [
+    8
+  ],
+  "test_subjects": [
+    8
+  ],
+  "n_train": 132,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 0.45225752890110016,
+    "best_epoch": 461
+  },
+  "metrics": {
+    "accuracy": 0.803030303030303,
+    "balanced_accuracy": 0.8095459236326109,
+    "kappa": 0.7377750611246944,
+    "precision": 0.8289473684210527,
+    "recall": 0.8095459236326109,
+    "f1": 0.7953679447487498,
+    "per_class": {
+      "0": {
+        "precision": 0.8421052631578947,
+        "recall": 0.8421052631578947,
+        "f1": 0.8421052631578947,
+        "support": 19
+      },
+      "1": {
+        "precision": 0.7894736842105263,
+        "recall": 1.0,
+        "f1": 0.8823529411764706,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.6842105263157895,
+        "recall": 0.8666666666666667,
+        "f1": 0.7647058823529413,
+        "support": 15
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.5294117647058824,
+        "f1": 0.6923076923076924,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        13,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        9
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9825162987927533
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub8_fold1",
+  "seed": 42,
+  "train_subjects": [
+    8
+  ],
+  "val_subjects": [
+    8
+  ],
+  "test_subjects": [
+    8
+  ],
+  "n_train": 132,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 0.4697555402914683,
+    "best_epoch": 437
+  },
+  "metrics": {
+    "accuracy": 0.7878787878787878,
+    "balanced_accuracy": 0.7867816576698156,
+    "kappa": 0.7160417947141979,
+    "precision": 0.7744969040247678,
+    "recall": 0.7867816576698156,
+    "f1": 0.7688259109311741,
+    "per_class": {
+      "0": {
+        "precision": 0.7058823529411765,
+        "recall": 0.9230769230769231,
+        "f1": 0.8000000000000002,
+        "support": 13
+      },
+      "1": {
+        "precision": 0.85,
+        "recall": 0.9444444444444444,
+        "f1": 0.8947368421052632,
+        "support": 18
+      },
+      "2": {
+        "precision": 0.7,
+        "recall": 0.4375,
+        "f1": 0.5384615384615384,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.8421052631578947,
+        "recall": 0.8421052631578947,
+        "f1": 0.8421052631578947,
+        "support": 19
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        17,
+        0,
+        1
+      ],
+      [
+        4,
+        3,
+        7,
+        2
+      ],
+      [
+        1,
+        0,
+        2,
+        16
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9569742389328227
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub8_fold2",
+  "seed": 42,
+  "train_subjects": [
+    8
+  ],
+  "val_subjects": [
+    8
+  ],
+  "test_subjects": [
+    8
+  ],
+  "n_train": 132,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 0.7034751176834106,
+    "best_epoch": 184
+  },
+  "metrics": {
+    "accuracy": 0.6818181818181818,
+    "balanced_accuracy": 0.6696078431372549,
+    "kappa": 0.5748466257668712,
+    "precision": 0.6642034436152082,
+    "recall": 0.6696078431372549,
+    "f1": 0.6612816342417861,
+    "per_class": {
+      "0": {
+        "precision": 0.7272727272727273,
+        "recall": 0.9411764705882353,
+        "f1": 0.8205128205128205,
+        "support": 17
+      },
+      "1": {
+        "precision": 0.8571428571428571,
+        "recall": 0.7058823529411765,
+        "f1": 0.7741935483870968,
+        "support": 17
+      },
+      "2": {
+        "precision": 0.3076923076923077,
+        "recall": 0.26666666666666666,
+        "f1": 0.28571428571428575,
+        "support": 15
+      },
+      "3": {
+        "precision": 0.7647058823529411,
+        "recall": 0.7647058823529411,
+        "f1": 0.7647058823529412,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        12,
+        4,
+        1
+      ],
+      [
+        6,
+        2,
+        4,
+        3
+      ],
+      [
+        0,
+        0,
+        4,
+        13
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8894757903161264
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub8_fold3",
+  "seed": 42,
+  "train_subjects": [
+    8
+  ],
+  "val_subjects": [
+    8
+  ],
+  "test_subjects": [
+    8
+  ],
+  "n_train": 132,
+  "n_val": 66,
+  "n_test": 66,
+  "train_info": {
+    "best_val_loss": 0.3727585126956304,
+    "best_epoch": 473
+  },
+  "metrics": {
+    "accuracy": 0.6363636363636364,
+    "balanced_accuracy": 0.6325980392156862,
+    "kappa": 0.5124653739612188,
+    "precision": 0.6569900687547746,
+    "recall": 0.6325980392156862,
+    "f1": 0.636710064129419,
+    "per_class": {
+      "0": {
+        "precision": 0.7857142857142857,
+        "recall": 0.6470588235294118,
+        "f1": 0.7096774193548386,
+        "support": 17
+      },
+      "1": {
+        "precision": 0.7058823529411765,
+        "recall": 0.75,
+        "f1": 0.7272727272727272,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1": 0.5714285714285715,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.6363636363636364,
+        "recall": 0.4666666666666667,
+        "f1": 0.5384615384615385,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        2,
+        4,
+        0
+      ],
+      [
+        0,
+        12,
+        2,
+        2
+      ],
+      [
+        3,
+        1,
+        12,
+        2
+      ],
+      [
+        0,
+        2,
+        6,
+        7
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8583776844070962
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 0,
+  "protocol_tag": "within_sub9_fold0",
+  "seed": 42,
+  "train_subjects": [
+    9
+  ],
+  "val_subjects": [
+    9
+  ],
+  "test_subjects": [
+    9
+  ],
+  "n_train": 118,
+  "n_val": 59,
+  "n_test": 60,
+  "train_info": {
+    "best_val_loss": 0.442130908370018,
+    "best_epoch": 339
+  },
+  "metrics": {
+    "accuracy": 0.7333333333333333,
+    "balanced_accuracy": 0.7271493212669683,
+    "kappa": 0.6433878157503714,
+    "precision": 0.7852239293886891,
+    "recall": 0.7271493212669683,
+    "f1": 0.7202675807164971,
+    "per_class": {
+      "0": {
+        "precision": 0.6521739130434783,
+        "recall": 1.0,
+        "f1": 0.7894736842105263,
+        "support": 15
+      },
+      "1": {
+        "precision": 0.631578947368421,
+        "recall": 0.8,
+        "f1": 0.7058823529411765,
+        "support": 15
+      },
+      "2": {
+        "precision": 0.8571428571428571,
+        "recall": 0.46153846153846156,
+        "f1": 0.6,
+        "support": 13
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 0.6470588235294118,
+        "f1": 0.7857142857142858,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        12,
+        0,
+        0
+      ],
+      [
+        5,
+        2,
+        6,
+        0
+      ],
+      [
+        0,
+        5,
+        1,
+        11
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9160014849941212
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 1,
+  "protocol_tag": "within_sub9_fold1",
+  "seed": 42,
+  "train_subjects": [
+    9
+  ],
+  "val_subjects": [
+    9
+  ],
+  "test_subjects": [
+    9
+  ],
+  "n_train": 119,
+  "n_val": 59,
+  "n_test": 59,
+  "train_info": {
+    "best_val_loss": 0.7602584064006805,
+    "best_epoch": 445
+  },
+  "metrics": {
+    "accuracy": 0.7966101694915254,
+    "balanced_accuracy": 0.8030563186813188,
+    "kappa": 0.7286316596397087,
+    "precision": 0.8138888888888889,
+    "recall": 0.8030563186813188,
+    "f1": 0.7905443374408893,
+    "per_class": {
+      "0": {
+        "precision": 0.8666666666666667,
+        "recall": 0.9285714285714286,
+        "f1": 0.896551724137931,
+        "support": 14
+      },
+      "1": {
+        "precision": 0.7142857142857143,
+        "recall": 0.9375,
+        "f1": 0.8108108108108109,
+        "support": 16
+      },
+      "2": {
+        "precision": 0.8888888888888888,
+        "recall": 0.5,
+        "f1": 0.64,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.7857142857142857,
+        "recall": 0.8461538461538461,
+        "f1": 0.8148148148148148,
+        "support": 13
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        8,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        11
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9423087108375279
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 2,
+  "protocol_tag": "within_sub9_fold2",
+  "seed": 42,
+  "train_subjects": [
+    9
+  ],
+  "val_subjects": [
+    9
+  ],
+  "test_subjects": [
+    9
+  ],
+  "n_train": 119,
+  "n_val": 59,
+  "n_test": 59,
+  "train_info": {
+    "best_val_loss": 0.8338801860809326,
+    "best_epoch": 187
+  },
+  "metrics": {
+    "accuracy": 0.6949152542372882,
+    "balanced_accuracy": 0.7149122807017544,
+    "kappa": 0.5955826351865956,
+    "precision": 0.7211538461538461,
+    "recall": 0.7149122807017544,
+    "f1": 0.6953703703703704,
+    "per_class": {
+      "0": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1": 0.8,
+        "support": 12
+      },
+      "1": {
+        "precision": 0.9090909090909091,
+        "recall": 0.5263157894736842,
+        "f1": 0.6666666666666666,
+        "support": 19
+      },
+      "2": {
+        "precision": 0.6153846153846154,
+        "recall": 0.5714285714285714,
+        "f1": 0.5925925925925927,
+        "support": 14
+      },
+      "3": {
+        "precision": 0.5909090909090909,
+        "recall": 0.9285714285714286,
+        "f1": 0.7222222222222223,
+        "support": 14
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        10,
+        3,
+        4
+      ],
+      [
+        1,
+        1,
+        8,
+        4
+      ],
+      [
+        0,
+        0,
+        1,
+        13
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.8953525213743578
+  }
+}
+
+{
+  "dataset": "smr",
+  "model": "eegnet_ms_se",
+  "protocol": "within",
+  "fold_id": 3,
+  "protocol_tag": "within_sub9_fold3",
+  "seed": 42,
+  "train_subjects": [
+    9
+  ],
+  "val_subjects": [
+    9
+  ],
+  "test_subjects": [
+    9
+  ],
+  "n_train": 118,
+  "n_val": 60,
+  "n_test": 59,
+  "train_info": {
+    "best_val_loss": 0.5487161949276924,
+    "best_epoch": 345
+  },
+  "metrics": {
+    "accuracy": 0.7457627118644068,
+    "balanced_accuracy": 0.7598824786324787,
+    "kappa": 0.6609195402298851,
+    "precision": 0.7431623931623931,
+    "recall": 0.7598824786324787,
+    "f1": 0.7439533023024484,
+    "per_class": {
+      "0": {
+        "precision": 0.7333333333333333,
+        "recall": 0.9166666666666666,
+        "f1": 0.8148148148148148,
+        "support": 12
+      },
+      "1": {
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923,
+        "support": 13
+      },
+      "2": {
+        "precision": 0.7692307692307693,
+        "recall": 0.5555555555555556,
+        "f1": 0.6451612903225806,
+        "support": 18
+      },
+      "3": {
+        "precision": 0.7777777777777778,
+        "recall": 0.875,
+        "f1": 0.823529411764706,
+        "support": 16
+      }
+    },
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        9,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        10,
+        3
+      ],
+      [
+        1,
+        1,
+        0,
+        14
+      ]
+    ],
+    "auc": null,
+    "auc_ovr_macro": 0.9459653731088052
+  }
+}
